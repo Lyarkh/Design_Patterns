@@ -1,4 +1,4 @@
-from orcamento import Orcamento, Item
+from exemplo_descontos.orcamento import Orcamento, Item
 
 class CalculadoraDescontos(object):
 
