@@ -1,4 +1,5 @@
 from orcamento import Orcamento
+from impostos import calcula_ISS, calcula_ICMS 
 
 class CalculadoraImpostos(object):
 
@@ -6,9 +7,9 @@ class CalculadoraImpostos(object):
         imposto = imposto.upper()
 
         if imposto == "ISS":
-            imposto_calculado = orcamento.valor * 0.1
+            imposto_calculado = calcula_ISS(orcamento)
         if imposto == "ICMS":
-            imposto_calculado = orcamento.valor * 0.06
+            imposto_calculado = calcula_ICMS(orcamento)
 
         print (imposto_calculado)
 
