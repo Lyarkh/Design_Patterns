@@ -1,5 +1,5 @@
-from src.exemplo_descontos.orcamento import Orcamento
-from exemplo_impostos.impostos import ISS, ICMS 
+from orcamento import Orcamento
+from impostos import ISS, ICMS 
 
 class CalculadoraImpostos(object):
 
