@@ -40,7 +40,7 @@ class TemplateImpostoCondicional(Imposto):
 """ def IPVX(metodo_ou_funcao):
     def wrapper(self, orcamento):
         return metodo_ou_funcao(self, orcamento) + 50.0
-    return wrapper """
+    return wrapper   'colocar o @IPVX'   """
 
 class ISS(Imposto):
 
